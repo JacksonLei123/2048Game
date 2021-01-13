@@ -3,7 +3,7 @@ export default class GameView {
         this.model = model;
 
         this.values = [];
-
+        // hello
         for (let i = 0; i < this.model.getGameState().board.length; i++) {
             this.values.push(this.model.getGameState().board[i]);
         }
